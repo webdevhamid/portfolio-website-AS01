@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,6 +30,10 @@
   cursor: pointer;
   background: transparent;
 }
+
+img {
+  width: 100%;
+}
 /* Navbar  */
 nav {
   padding: 20px 0;
@@ -59,12 +61,45 @@ nav {
 
 /* Hero Styles */
 .hero-section {
+  background: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 652px;
+}
+.hero-content {
   max-width: 998px;
-  margin: 0 auto;
   height: 582px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 20px;
+}
+.hero-section .hero-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+}
+.hero-section .hero-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hero-section .hero-btn button {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
 }
