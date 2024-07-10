@@ -310,11 +310,14 @@ nav {
   width: 20%;
 }
 .contact-form input.contact-input {
-  color: rgba(13, 19, 33, 0.4);
+  color: rgba(13, 19, 33, 0.849);
   font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+}
+.contact-form input.contact-input::placeholder {
+  color: rgba(13, 19, 33, 0.4);
 }
 .contact-form input.btn-submit {
   color: rgb(13, 19, 33);
