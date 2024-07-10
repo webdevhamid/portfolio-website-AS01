@@ -325,3 +325,20 @@ nav {
   font-weight: 600;
   line-height: 23px;
 }
+
+/* Footer section styles  */
+footer {
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+.footer-container .social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
