@@ -50,8 +50,8 @@ section {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: center;
+  letter-spacing: 0%;
   opacity: 0.7;
   margin-top: 24px;
 }
@@ -126,7 +126,7 @@ nav {
 }
 
 /* Why Web Dev Styles  */
-.web-dev-section {
+#web-dev-section {
   padding: 80px 97px 80px 97px;
 }
 .web-dev-container {
@@ -183,4 +183,68 @@ nav {
 }
 .web-dev-description {
   margin-bottom: 48px;
+}
+
+/* Inspiration section styles */
+.youtube-embedded-video {
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-top: 48px;
+}
+.youtube-embedded-video iframe {
+  border-radius: 16px;
+}
+
+/* Current Target Section Styles  */
+.current-target-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.current-target-box-item {
+  padding: 40px;
+  border-radius: 16px;
+}
+.current-target-box-item:nth-child(1) {
+  background: rgba(255, 76, 30, 0.05);
+}
+.current-target-box-item:nth-child(2) {
+  background: rgba(0, 76, 232, 0.05);
+}
+.current-target-box-item:nth-child(3) {
+  background: rgba(255, 223, 0, 0.05);
+}
+.current-target-box .current-target-box-item .current-target-box-image {
+  width: 40px;
+  margin-bottom: 24px;
+}
+.current-target-box-content {
+  color: rgb(13, 19, 33);
+  text-align: left;
+  font-family: Azeret Mono;
+}
+.current-target-box-content p {
+  margin: 24px 0;
+}
+.current-target-box-content h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.current-target-box-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.current-target-box-content .btn-current-target {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
 }
