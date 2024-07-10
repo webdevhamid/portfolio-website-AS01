@@ -11,3 +11,60 @@
   outline: 0;
   border: none;
 }
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Styles  */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.btn {
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  cursor: pointer;
+  background: transparent;
+}
+/* Navbar  */
+nav {
+  padding: 20px 0;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-btn {
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 17px 24px 17px 24px;
+}
+.navbar a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+}
+
+/* Hero Styles */
+.hero-section {
+  max-width: 998px;
+  margin: 0 auto;
+  height: 582px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
