@@ -252,3 +252,73 @@ nav {
   line-height: 19px;
   text-decoration-line: underline;
 }
+
+/* Contact Section Styles  */
+.contact-container {
+  padding: 64px 48px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-image: url("../assets/contact-banner.jpg");
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  min-height: 314px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container .contact-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 36px;
+}
+
+.contact-container .contact-description {
+  color: rgb(255, 255, 255);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 684px;
+  gap: 16px;
+  margin-top: 24px;
+  height: 57px;
+}
+.contact-form input {
+  padding: 19px 20px 19px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  height: 100%;
+}
+.contact-form input.contact-input {
+  width: 80%;
+}
+.contact-form input.btn-submit {
+  width: 20%;
+}
+.contact-form input.contact-input {
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.contact-form input.btn-submit {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
