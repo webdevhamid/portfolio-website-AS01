@@ -108,6 +108,7 @@ nav {
   align-items: center;
   text-align: center;
   gap: 20px;
+  height: 670px;
 }
 .hero-section .hero-title {
   color: rgb(13, 19, 33);
